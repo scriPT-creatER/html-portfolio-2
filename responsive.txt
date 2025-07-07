@@ -1,0 +1,221 @@
+@media (min-width: 992px) {
+  .image1 {
+    margin-top: 50px;
+  }
+
+  .image2 {
+    margin-top: 50px;
+    float: right;
+    margin-right: 100px;
+  }
+
+  .image3 {
+    margin-top: 200px;
+    float: left;
+  }
+
+  .image4 {
+    margin-top: 200px;
+    float: right;
+  }
+
+  .name {
+    margin-top: 100px;
+    text-align: left;
+  }
+
+  .name2 {
+    margin-top: 100px;
+    text-align: left;
+    
+  }
+}
+
+@media (max-width: 768px) {
+  .image1, .image2, .image3, .image4 {
+    display: block;
+    margin: 15px auto;
+    float: none;
+    max-width: 100%;
+    height: auto;
+    position: static;
+  }
+
+  .name, .name2 {
+    text-align: center;
+    font-size: 28px;
+    margin-top: 20px;
+    position: static;
+  }
+
+  .pacifico-regular {
+    font-size: 36px;
+  }
+
+  .rubik-moonrocks-regular {
+    font-size: 24px;
+  }
+
+  .main, .main1, .main2 {
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .leftside {
+    float: none;
+    display: block;
+    margin: 20px auto;
+  }
+
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .change {
+    display: block;
+    margin: 0 auto 20px;
+    max-width: 80%;
+    height: auto;
+  }
+
+  .col-lg-8 {
+    width: 100%;
+  }
+
+  .text {
+    text-align: center;
+  }
+}
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rishabh Resume</title>
+    <link rel="stylesheet"
+    href="./style.css" >
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap" rel="stylesheet">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
+</head>
+<body>
+<section class="gradient-background1 ">
+<div class=" container">
+    <img class="image1 img-fluid" src="./Fan.jpeg" alt="fan image" />
+    <img class="image2 img-fluid" src="./light.jpeg" alt="light image" />
+    <img class="image3 img-fluid" src="./images.jpeg" alt="second light" />
+    <img class="image4 img-fluid" src="./modernfan.jpeg" alt="second fan" />
+    <h1 class=" pacifico-regular name ">I,m Rishabh  </h1>
+        <br>
+     <h2 class=" rubik-moonrocks-regular name2  "> a sales enthusiast	</h2>
+
+</div>    
+</section>
+
+    <div class="  color  "> 
+        <div class="p-5 text-center "> 
+            <div class="container py-5"> 
+              <img class="change img-fluid " src="./Rishabh.png" alt="person-image" /> 
+              <br>
+              <br>  
+                <h1 class="text dm-serif-text-regular">Hello</h1> 
+                <br>
+                <br>
+
+                    <p class="col-lg-8 mx-auto dm-serif-text-regular ">I'm a passionate Sales Executive with a knack for turning leads into loyal customers. I’ve spent 6+ years building relationships with dealers, retailers. I love understanding what people need — and delivering more.</p>
+                
+            </div> 
+        </div> 
+    </div>
+
+
+<section id="third">
+<div class="mb-5"> 
+    <div class="p-5 text-center bg-body-tertiary"> 
+        <div class="container py-5"> 
+            <h2 class=" text dm-serif-text-regular">My Skills</h2>
+            <br>
+            <br>
+            <br>
+            <br>
+        <h3 class="text main dm-serif-text-regular">Sales & Strategy</h3>
+        <br>
+        <img class="leftside img-fluid" src="./work.gif" height="250px" alt="working-cat"  />
+            <p class="col-lg-8  mx-auto text-start dm-serif-text-regular ">I discovered my passion for sales early on, driven by a fascination with how people make decisions and what truly influences them. Over the years, I’ve built strong experience in selling across multiple markets, managing distributor networks, and creating long-term relationships with clients. Whether it’s introducing a new product, leading a sales campaign, or understanding customer pain points — I thrive on turning conversations into conversions.</p> 
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+        <h3 class=" text main1 dm-serif-text-regular">Foodie & Cricket Fanatic</h3 > 
+            <br>
+            <img class="leftside  img-fluid crop" src="./food-blogger-eating-front-microphone-260nw-1982856503.webp" height="190px" alt="eatingfood" />
+                        <p class="col-lg-8 mx-auto text-start dm-serif-text-regular ">But my real superpower? Eating — a lot. From spicy street food to sweet desserts, I never say no to a good plate. And when I'm not exploring flavors, you'll find me on the cricket field, chasing boundaries and bowling bouncers like it's the World Cup. Food fuels me, and cricket keeps me sharp.</p> 
+ 
+</div>  
+    </div> 
+        </div>
+
+
+</section>
+
+
+<section id="fourth">
+    <div class="container3">
+        <div class="container my-5"> 
+            <div class="position-relative p-5 text-center text-muted bg-body "> 
+                
+                <svg class="bi mt-5 mb-3" width="48" height="48" aria-hidden="true"><use xlink:href="#check2-circle"></use></svg> 
+                <h1 class=" text dm-serif-text-regular">Get In Touch</h1> 
+                <br>
+                
+                <h3 class="text"> If you love food and cricket as much as I do.</h3>
+                <br>
+                
+                <p class="col-lg-6 mx-auto mb-4 dm-serif-text-regular ">Love a good plate of spicy snacks or the sound of a perfect cover drive? Let’s talk about how awesome they are! We can chat sales, strategy, or just argue over who’s the real GOAT</p> 
+                <br>
+                <button class=" improve improve:hover px- mb-5" type="button">CONTACT ME</button> 
+            </div> 
+        </div>
+    </div>
+</section>
+
+<section id="fifth">
+<div class="container"> 
+    <footer class="py-3 my-4"> 
+        <ul class="nav weight justify-content-center  pb-3 mb-3"> 
+            <li class="nav-item"><a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="nav-link px-2 footer-link">LinkedIn</a>
+</li> 
+            <li class="nav-item"><a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="nav-link px-2 footer-link">Twitter</a>
+</li> 
+            <li class="nav-item"><a href="./instragram.txt" class="nav-link px-2 footer-link">Instagram</a></li> 
+            
+        </ul> 
+        <p class=" last text-center ">© 2025 ScriptKiddi. All rights reserved.</p> 
+    </footer> 
+</div>
+</section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,165 @@
+
+
+
+.gradient-background1{
+    background-color: deepskyblue;
+    height: 100vh;
+    width: 100%;
+}
+ 
+.container{
+    position: relative;
+    
+}
+
+
+.image1,.image2,.image3,.image4,.name,.name2{
+    position: absolute;
+}
+
+.image1{
+    top: 50px;
+
+}
+
+.image2{
+    top: 50px;
+    bottom: 200px;
+    right: 100px;
+    
+}
+
+
+.image3{
+    top: 700px;
+    left: -10px;
+}
+
+.image4{
+    top: 700px;
+    right: 40px;
+}
+
+.name{
+    top: 400px;
+    right: 500px;
+    color: aliceblue;
+}
+
+
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 70px;
+}
+.name2{
+    top: 500px;
+    right: 500px;
+    color:aliceblue;
+    font-size: 35px;
+}
+
+.rubik-moonrocks-regular {
+  font-family: "Rubik Moonrocks", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.color{
+    background-color:    #f8f9fa;
+    
+}
+
+.change{
+    margin-top: -10px;
+    border-radius: 50%;
+}
+
+.text{
+    color:deepskyblue;
+    font-weight: 500;
+}
+
+.dm-serif-text-regular {
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.container2{
+    display: flex;
+    justify-content: center;
+}
+
+.leftside{
+    float: left;
+    margin-right: 50px
+
+}
+
+.main{
+    margin-right: 500px;
+}
+
+.main2{
+    margin-right:900px;
+}
+
+.main1{
+    margin-right: 370px;
+}
+
+.improve{
+    background-color: deepskyblue;
+    border-radius: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    border: white;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.improve:hover{
+    background-color: #60d3ff;
+    color: white;
+}
+
+#fifth{
+    background-color: deepskyblue;
+    height: 20vh;
+    width: 100%;
+}
+
+.last{
+    color: white;
+}
+
+.footer-link {
+  color: #222 !important; /* default color */
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: white !important; /*color on hover */
+}
+
+.weight{
+    font-weight: 700;
+    font-size: 13pt;
+}
+
+
+
+
+
+
+/* some changes */
+
+
+
+
